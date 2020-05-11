@@ -58,7 +58,7 @@ the api will run on
 
 #  Git commands used in Project
 
-on Dev machine 
+## on Dev machine 
 ```
 git init 
 
@@ -69,10 +69,15 @@ git commit -u "first commit"
 git remote add origin https://github.com/sivaneshwararaj/upworkproject.git
 git push -u origin master
 ```
-on server
+## on server
 
 ```
 git clone https://github.com/sivaneshwararaj/upworkproject.git
+```
+### update code on server
+
+```
+git pull origin master
 ```
 
 
