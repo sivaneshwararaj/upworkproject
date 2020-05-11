@@ -6,6 +6,14 @@ __Description__
 
 Demo app deployed on python anywhare server
 
+## prerequisite
+<!-- ul -->
+* python 3.8
+* Django 3
+* Django Rest framework 3
+
+
+
 Api url:
 <!-- links -->
 [api url ](http://sivaneshwararaj.pythonanywhere.com/v1/api)
@@ -34,7 +42,7 @@ how to install code on local host
 
 <!-- code blocks -->
 ```
-git pull https://github.com/sivaneshwararaj/upworkproject.git
+git clone https://github.com/sivaneshwararaj/upworkproject.git
 pip install django
 pip install djangorestframework
 python manage.py migrate
